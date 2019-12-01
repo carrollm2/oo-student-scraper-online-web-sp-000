@@ -21,7 +21,7 @@ class Student
 
   def self.create_from_collection(students_array)
 
-    students_array.each_with_index do |student|
+    students_array.each_with_index do |student, index|
       new_student = Student.new(students_array[index])
       @all << new_student
     end
