@@ -23,7 +23,7 @@ class Student
 
     students_array.each_with_index do |student, index|
       new_student = Student.new(students_array[index])
-      @all << new_student
+      @@all << new_student
     end
   end
 
