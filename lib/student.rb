@@ -38,7 +38,7 @@ class Student
       elsif key.to_s == "linkedin"
         @linkedin = value
       elsif key.to_s == "github"
-        @linkedin = value
+        @github = value
       elsif key.to_s == "blog"
         @blog = value
       elsif key.to_s == "profile_quote"
