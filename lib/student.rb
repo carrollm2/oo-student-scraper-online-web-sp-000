@@ -34,20 +34,20 @@ class Student
       elsif key.to_s == "location"
         @location = value
       elsif key.to_s == "twitter"
-        @twitter = value    
+        @twitter = value
       elsif key.to_s == "linkedin"
-        @linkedin = value      
+        @linkedin = value
       elsif key.to_s == "github"
-        @linkedin = value    
+        @linkedin = value
       elsif key.to_s == "blog"
-        @linkedin = value     
+        @linkedin = value
       elsif key.to_s == "profile_quote"
-        @profile_quote = value        
+        @profile_quote = value
       elsif key.to_s == "bio"
-        @bio = value  
+        @bio = value
       elsif key.to_s == "profile_url"
-        @profile_url = value       
-      end                                                              
+        @profile_url = value
+      end
     end
 
   end
